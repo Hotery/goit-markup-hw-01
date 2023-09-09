@@ -1,0 +1,247 @@
+body {
+  color: #212121;
+  font-family: 'Roboto', 'Verdana', 'Tahoma', sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --main--text-color: #434455;
+  --text-color: #2E2F42;
+  --main-logo-color:#4D5AE5;
+  --back-ground-color:F4F4FD;
+}
+
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
+p {
+  color: var(--main--text-color);
+}
+
+/* heder */
+
+.header-logo {
+  color: #000000;
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.header-logo > span {
+  color: var(--main-logo-color);
+}
+
+.link-studia,
+.link-portfolio,
+.link-contacts {
+  color: var(--text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.link-studia:hover,
+.link-studia:focus,
+.link-portfolio:hover,
+.link-portfolio:focus,
+.link-contacts:hover,
+.link-contacts:focus {
+  color: var(--main-logo-color);
+}
+
+.heder-email,
+.heder-tel {
+  color: var(--main--text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.heder-email:hover,
+.heder-email:focus,
+.heder-tel:hover,
+.heder-tel:focus {
+  color: var(--main-logo-color);
+}
+
+/* hero */
+
+.hero {
+  background-color: #2f303a;
+  width: 1600px;
+  height: 600px;
+  display: block;
+
+
+}
+.hero-title {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+  position: absolute;
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 280px;
+}
+
+.hero-button {
+  background-color: var(--main-logo-color);
+  color: #ffffff;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  cursor: pointer;
+  position: absolute;
+  border-radius: 4px;
+  padding: 10px 32px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: none;
+}
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #188ceb;
+}
+
+/* advantages */
+.advantages h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+
+.advantages p {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+/* work */
+
+.work-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+/* team */
+
+.team {
+  background-color: #f5f4fa;
+}
+.team h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.our-team > li {
+  background-color: #ffffff;
+  height: 368px;
+  width: 270px;
+  left: 515px;
+  top: 1632px;
+  border-radius: 0px 0px 4px 4px;
+}
+.our-team h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.our-team p {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* footer */
+
+footer {
+  background-color: #2f303a;
+}
+.footer-logo {
+  color: #ffffff;
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.footer-logo span {
+  color: var(--main-logo-color);
+}
+
+.address {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 1.71;
+  font-style: normal;
+  letter-spacing: 0.03em;
+}
+.footer-email,
+.footer-tel {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  line-height: 1.71;
+  font-style: normal;
+  letter-spacing: 0.03em;
+}
+.footer-email:hover,
+.footer-email:focus,
+.footer-tel:hover,
+.footer-tel:focus {
+  color: var(--main-logo-color);
+}
+
+/* Portfolio */
+
+.button {
+  background-color: #f5f4fa;
+  color: var(--text-color);
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 6px 22px;
+  border: none;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.button:hover,
+.button:focus {
+  background-color: var(--main-logo-color);
+  color: #ffffff;
+}
+.portfolio h2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.portfolio p {
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+}
